@@ -1,7 +1,4 @@
 /* <!-- MANDATORY JS EXERCISES (create a different file for this exercise)
-4) Insert the genere as text in the list-item
-5) Append the list items in the unordered list
-6) Append the unordered list in the document. The list should appear in the page.
 --> */
 
 
@@ -20,13 +17,23 @@ document.querySelector(".div1").appendChild(newUnorderedList)
 
 /* 
 3) Cycle the array and create a list-item via JavaScript for every element
+*/
+/* 
+4) Insert the genere as text in the list-item
+*/
+/* 
+5) Append the list items in the unordered list
+6) Append the unordered list in the document. The list should appear in the page.
  */
+
 
 for (let i = 0; i < genres.length; i++) {
     let NewLI = document.createElement("li");
     NewLI.innerText += genres[i];
     newUnorderedList.appendChild(NewLI);
 }
+
+
 
 
 
