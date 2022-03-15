@@ -1,0 +1,73 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    background-color: grey;
+}
+
+.container {
+    margin-top: 2%;
+}
+
+h5 {
+    background-color: rgb(79, 200, 79);
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+ .album-cover-picture {
+    height: 20rem;
+    
+} 
+
+.img-thumbnail {
+    border: solid black 3px;
+}
+
+.album-group, .album-genre, .album-duration, .tracklist {
+    line-height: 1em;
+    border-bottom: solid black 1px;
+    display: inline-block;
+}
+
+.container-review {
+    background-color: rgb(187, 179, 179);
+    text-align: CENTER;
+
+}
+
+#container-worst-album-of-the-week {
+    background-color: rgb(131, 130, 130);
+    text-align: center;
+
+
+
+
+
+}
+
+#stuff-we-like {
+    background-color: rgb(175, 129, 129);
+    text-align: center;
+    clip-path: polygon(0 8%,100% 0,100% 100%,0 97%);
+}
+
+ 
+  .footer {
+    background-color: #f5f5f5;
+    text-align: center;
+    
+
+}
+  
+.navbar, .navbar-expand-lg, .navbar-light, .bg-light {
+
+    background-color: red;
+}
+
+
+.navbar-brand {
+;
+}
